@@ -1,0 +1,107 @@
+body {
+    background-color: #FCF191;
+    font-size: 10pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 2px dashed black;
+    margin: auto 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1{
+    color: red;
+    text-shadow: 2px 2px 5px black;
+}
+
+.testimonials {
+    background-color: rgb(243, 152, 87);
+    margin: 10px auto;
+    width: 400px;
+    padding: 5px 15px;
+}
+
+.testimonials h2 {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: red;
+    padding-left: 40px;
+}
+
+.lsidebar{
+    float: left;
+    background-color: white;
+    width: 20%;
+    border: double orange;
+    margin-left: 1.3em;
+    height: 400px;
+
+}
+
+.konten{
+    float: left;
+    background-color: white;
+    width: 50%;
+    border: double orange;
+    height: 400px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.konten p{
+    text-align: justify;
+    line-height: 1.7em;
+}
+
+.konten h2{
+    border-left: 3px solid;
+    border-top: 1px solid;
+    color: rgb(167, 8, 132);
+    padding-left: .6em;
+    margin-top: 2em;
+}
+
+.konten h2#firstproduct{
+    margin-top: 1em;
+}
+
+nav{
+    padding: 1em;
+    line-height: 1.5em;
+    border-bottom: double orange;
+}
+
+.iklan{
+    padding-top: 4em;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgb(173, 47, 68);
+}
+
+.rsidebar{
+    float: left;
+    background-color: white;
+    width: 20%;
+    border: double orange;
+    height: 400px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+}
+
+a{
+    color: purple;
+    text-underline-offset: 0.5em;
+}
+
+
+

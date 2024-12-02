@@ -1,0 +1,122 @@
+body{
+    background-color:#FCF191;
+    font-size: 10pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    }
+
+.container{
+    border: 2px dashed black;
+    margin: auto 12px;
+    width: 1200px;
+    height: 685px;
+    
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    color: rgb(225,110,55);
+    text-shadow: 2px 2px 5px black;
+}
+
+.testimoni{
+    width: 500px;
+    margin: 10px auto;
+    background-color: rgb(245,191,102);
+    padding: 5px 15px;
+}
+
+.testimoni blockquote{
+    margin: 10px auto;
+}
+
+.testimoni h2{
+    color: rgb(225,111,56);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 90%;
+}
+
+.lsidebar{
+    background-color: white;
+    border: 3px double rgb(225,110,55);
+    margin-left: 5px;
+    width: 240px;
+    height:360px;
+    float: left;
+}
+
+.lsidebar nav{
+    width: 235px;
+    height: 60px;
+    padding: 10px;
+    line-height: 20px;
+    border-bottom: 3px double rgb(225,110,55);
+}
+
+.lsidebar p{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-shadow: 0px 0px 5px red;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.rsidebar p{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-shadow: 0px 0px 5px red;
+    padding-top: 140px;
+    text-align: center;
+}
+
+span{
+    font-style: oblique;
+    color: rgb(225,110,55);
+}
+.konten{
+    background-color: white;
+    border: 3px double rgb(225,110,55);
+    margin-left:0px;
+    margin-right:5px;
+    width: 665px;
+    height:360px;
+    float: left;
+    padding-left: 13px;
+    padding-right: 13px;
+    
+}
+
+.konten p{
+    line-height: 23px;
+}
+.konten h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+    padding-top: 4px;
+    font-size: 1.1em;
+    color: rgb(134,38,100);
+    border-top: 1px solid rgb(134,38,100);
+    border-left: 2px solid rgb(134,38,100);
+}
+
+.rsidebar{
+    background-color: white;
+    border: 3px double rgb(225,110,55);
+    width: 235px;
+    height:360px;
+    float: left;
+    margin-right: 2px;
+}
+
+footer{ 
+    font-size: 1em;
+    color: rgb(114, 58, 39);
+    padding-top: 0.014px;
+    text-align: center;
+    clear: both;
+}

@@ -1,0 +1,218 @@
+body {
+    background: linear-gradient(to top, white, rgba(255,255,255,0.7)) , url(background.png) no-repeat , white;
+    background-size: 100%;
+}
+
+.container {
+    width : 960px;
+    margin : 0 auto;
+}
+
+header {
+    background: black;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+#logo {
+    text-align: center;
+    color: white;
+    padding: 30px 0px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid white;
+    font-family: shrikhand;
+    text-shadow: 2px 2px 2px red, -2px -2px 2px red;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    margin-right: 14px;
+    margin-left: 2.5px;
+    margin-top: -11px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+aside {
+    float: right;
+    margin-top: 15px;
+    width: 350px;
+    background: black;
+    font-family: arial;
+}
+
+#header-nav-aside {
+    background-color: rgb(190, 32, 32);
+    color: white;
+    padding: 7px; 
+    text-align: center;
+}
+
+#header-nav-aside a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-right: 2px;
+    font-weight: bold;
+}
+
+#content-nav-aside h4 {
+    background: gray;
+    padding: 20px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#content-nav-aside a {
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+}
+
+#iklan {
+    float: right;
+    width: 348px;
+    border: 1px solid black;
+    background: rgb(190, 32, 32);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    clear: both;
+    font-size: 12pt;
+    margin-top: 20px;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    font-family: arial;
+}
+
+.content {
+    width: 600px;
+}
+
+#artikel {
+    text-align: justify;
+    margin-right: 20px;
+    border-bottom: 1px dashed gray;
+    font-family: arial;
+    font-size: 12pt;
+}
+
+#artikel h2 {
+    font-weight: bold;
+}
+
+#artikel p {
+    margin-left: 25px;
+}
+
+#artikel h2 {
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+#teks-artikel {
+    margin: 0px;
+    padding: 0px;
+    color: gray;
+    font-size: 11pt;
+    font-weight: bolder;
+}
+
+#comment {
+    width: 600px;
+    margin: 0 auto;
+    font-family: arial;
+}
+
+#jumlah-komen {
+    text-align: center;
+    font-size: 35px;
+}
+
+#pembuka {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+#comment h3 {
+    padding-bottom: 20px;
+}
+
+.header-comment{
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    height: 63px;
+    margin-top: 30px;
+}
+
+.header-comment h3{
+    float: left;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.header-comment p{
+    float: right;
+    padding-top: 6px; 
+}
+
+#isi-komen {
+    margin-left: 20px;
+}
+
+.comments {
+    margin-left: 30px;
+}
+
+.comments a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 9px black, -3px -3px 9px black, -3px 3px 9px black, 3px -3px 9px black;
+    font-size: 11pt;
+}
+
+blockquote {
+    background: rgb(121, 128, 134);
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    width: 300px;
+    font-size: 16px;
+    color: white;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+blockquote p {
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+footer {
+    color: gray;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 10pt;
+    font-family: arial;
+}
+
